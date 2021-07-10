@@ -30,6 +30,7 @@
 
 h1{
     display: inline-block;
+    width: 35%;
     font-size: 2rem;
     line-height: 1.3em; 
     margin-bottom: 3rem;
@@ -37,7 +38,8 @@ h1{
 }
 .slogan{
     display: inline-block;
-    
+    width: 35%;
+    text-align: center;
     margin-bottom: 3rem;
     border:0.1em solid thistle ;
     border-radius: 0.1em;
@@ -67,7 +69,7 @@ p{
 footer{
     background-color: rgb(1, 41, 1);
     color: honeydew;
-    padding: 4rem 0;
+    padding: 2rem 0;
     text-align: center;
     margin-top:6rem;
     opacity: 0.8;
@@ -119,6 +121,7 @@ footer{
     display: block;
     padding:0.5rem 1rem;
     margin: 1rem;
+    font-size: 1rem;
 }
   .navegador ul li a:hover{
     background: chocolate;
@@ -127,6 +130,10 @@ footer{
 main{
     padding-top:15rem;
     color: rosybrown;
+}
+.main-contenedor{
+    display: flex;
+    flex-direction: column;
 }
 
 body{
@@ -146,4 +153,6 @@ body{
 .icon-face{
     width: 30px;
     height: 30px;
+    position: relative;
+    left: 0;
 }
