@@ -1,0 +1,149 @@
+/*PALETA DE COLORES
+
+--persian-blue: #072ac8ff;
+--dodger-blue: #1e96fcff;
+--uranian-blue: #a2d6f9ff;
+--mikado-yellow: #ffc600ff;
+
+/*---------------------------------------------------------------------------------------------*/
+
+:root{
+    --persian-blue: #072ac8ff;
+    --dodger-blue: #1e96fcff;
+    --uranian-blue: #a2d6f9ff;
+    --mikado-yellow: #ffc600ff;
+    --mifont:'Source Sans Pro', sans-serif;
+    
+}
+*{
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    line-height: 1.6em;
+    font-family: var(--mifont);
+    margin: 0;
+    padding: 0;
+
+    /*pruebitas*/
+    list-style: none;
+    text-decoration: none;
+}
+
+h1{
+    display: inline-block;
+    font-size: 2rem;
+    line-height: 1.3em; 
+    margin-bottom: 3rem;
+    border-bottom:0.2em solid rosybrown;
+}
+.slogan{
+    display: inline-block;
+    
+    margin-bottom: 3rem;
+    border:0.1em solid thistle ;
+    border-radius: 0.1em;
+    padding:0 5px;
+}
+p{
+    margin-bottom: 1.6em;
+}
+
+.contenedor{
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+    
+}
+.a-logo{
+    /* display: inline-block; */
+    width: 10%;
+    background-color:rebeccapurple;
+    border-radius: 60% ;
+}
+.logo{
+    width: 80%;
+    display: block;
+    margin:0 auto ;
+}
+footer{
+    background-color: rgb(1, 41, 1);
+    color: honeydew;
+    padding: 4rem 0;
+    text-align: center;
+    margin-top:6rem;
+    opacity: 0.8;
+}
+
+.hprincipal{
+    background-color: indianred;
+    color: indigo;
+    padding: 2rem 0;
+    opacity: 0.8;
+    /*para que el header quede fijo*/
+    position: fixed;
+    width: 100%;
+}
+/* .navegador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.logo-nav-contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+/* .hprincipal .navegador a{
+    color: white;
+    background-color: violet;
+    border-radius: 5px;
+    display: block;
+    padding:0.5rem 1rem;
+
+} */
+.navegador ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.navegador ul li{
+    display: inline-block;
+}
+.navegador ul li a{
+    color: white;
+    background-color: violet;
+    border:2px solid coral;
+    border-radius: 5px;
+    display: block;
+    padding:0.5rem 1rem;
+    margin: 1rem;
+}
+  .navegador ul li a:hover{
+    background: chocolate;
+    transition: all 0.4s linear;
+  }
+main{
+    padding-top:15rem;
+    color: rosybrown;
+}
+
+body{
+    background-image: url(/backgroundfondo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: scroll;
+}
+
+.redes-sociales{
+    display: inline-block;
+}
+.li-footer{
+    width: 30%;
+    margin: 0 auto;
+}
+.icon-face{
+    width: 30px;
+    height: 30px;
+}
