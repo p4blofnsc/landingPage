@@ -112,6 +112,7 @@ footer{
 }
 .navegador ul li{
     display: inline-block;
+    width: 0.5rem;
 }
 .navegador ul li a{
     color: white;
@@ -153,4 +154,12 @@ body{
 .icon-face{
     width: 30px;
     height: 30px;
+}
+
+
+.contenedor-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
